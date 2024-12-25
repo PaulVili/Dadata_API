@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dadata_API", "Dadata_API.csproj", "{FBA6D3D0-D79B-4AA2-9BBA-4EA8178FF3BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBA6D3D0-D79B-4AA2-9BBA-4EA8178FF3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA6D3D0-D79B-4AA2-9BBA-4EA8178FF3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA6D3D0-D79B-4AA2-9BBA-4EA8178FF3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA6D3D0-D79B-4AA2-9BBA-4EA8178FF3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E2FA472-22C3-42CC-97FB-ED05B3441AF1}
+	EndGlobalSection
+EndGlobal
