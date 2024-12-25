@@ -12,6 +12,7 @@ namespace Dadata_API.Controllers
     [ApiController]
     public class DadataController : Controller
     {
+        private static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
         private readonly IConfiguration Configuration;
         private readonly IMapper _mapper;
         public DadataController(IConfiguration configuration, IMapper mapper)
@@ -33,6 +34,7 @@ namespace Dadata_API.Controllers
             if (address != null)
             {
                 var destionation = _mapper.Map<DestinationDto>(address);
+                Logger.Info("it`s working");
                 yield return destionation;
             }          
             
